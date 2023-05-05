@@ -1,13 +1,79 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px auto; 
+  overflow: hidden;
+  font-family:  "Courier New", monospace;
+}
+.App{ 
+ align-items: center;
+ text-align: center;
+ border:.02px solid transparent;
+ height:100vh;  
+ background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav {
+  overflow: hidden;
+  background-color: #333;
 }
+
+.nav p {
+  margin: 0px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav p:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+.nav p.active {
+  background-color: rgb(1, 39, 77);
+  color: white;
+}
+ 
+form{
+  background-color: white;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+  padding: 0px 50px;
+  box-shadow: rgba(3, 56, 75, 0.4) 5px 5px, rgba(3, 56, 75, 0.3) 10px 10px, rgba(3, 56, 75, 0.2) 15px 15px, rgba(3, 56, 75, 0.1) 20px 20px, rgba(3, 56, 75, 0.05) 25px 25px;
+  border-radius: 10px;
+}
+
+h1{
+  color: rgb(1, 39, 77);
+  text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color:rgb(1, 39, 77);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px; 
+  font-family:  "Courier New", monospace;
+}
+.btn-cancel{
+  background-color: red;
+}
+

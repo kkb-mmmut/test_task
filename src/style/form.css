@@ -1,0 +1,99 @@
+.formInput{
+    display: flex;
+    margin: 40px auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    /* border:2px solid red; */
+}
+.info {
+    float: left;
+    font-weight: 800;
+    margin-bottom: -25px;
+    margin-top: -20px;
+    margin-left: -20px;
+    text-decoration: underline;
+}
+input{
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family:  "Courier New", monospace;
+}
+select{
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family:  "Courier New", monospace;
+}
+
+label{
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red; 
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+
+.personal {
+    /* background-color:pink;
+    border:2px solid red; */
+    display:inline-flex; 
+    flex-wrap: wrap;
+    height: 120px;
+
+}
+ 
+.contact {
+    /* background-color:pink;
+    border:2px solid red; */
+    display:inline-flex; 
+    flex-wrap: wrap;
+    height: 120px;
+
+}
+.address {
+    /* background-color:pink;
+    border:2px solid red; */
+    display:inline-flex; 
+    flex-wrap: wrap;
+    height: 120px;
+
+}
+.others {
+    /* background-color:pink;
+    border:2px solid red; */
+    display:inline-flex; 
+    flex-wrap: wrap;
+    height: 120px;
+
+}
+.buttons {
+    /* background-color:pink;
+    border:2px solid red; */
+    display:inline-flex; 
+    flex-wrap: wrap;
+    height: 60px; 
+    float: right; 
+} 
+
+thead{
+    background-color: rgb(1, 39, 77);
+    color:aliceblue; 
+}
+th,td{
+    padding:10px 5px 10px 5px; 
+}
